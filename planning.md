@@ -1,9 +1,5 @@
 # FitFindr — planning.md
 
-> Complete this document before writing any implementation code.
-
----
-
 ## Tools
 
 ### Tool 1: search_listings
@@ -28,7 +24,7 @@ If the result is an empty list, the agent sets session["error"] to a helpful mes
 **What it does:**
 Given a thrifted item and the user's wardrobe, calls the Groq LLM to suggest 1–2 complete outfit combinations using the new item paired with existing wardrobe pieces.
 
-**Input parameters:**
+**Input parameters:**0
 - `new_item` (dict): A listing dict for the item the user is considering buying
 - `wardrobe` (dict): A wardrobe dict with an 'items' key containing a list of wardrobe item dicts. May be empty.
 
